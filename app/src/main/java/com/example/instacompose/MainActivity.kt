@@ -54,6 +54,13 @@ fun AppBar() {
             )
         }
 
+        IconButton(onClick = { /*TODO*/ }) {
+            Icon(
+                painter = painterResource(id = R.drawable.ic_baseline_arrow_down_24),
+                contentDescription = "Localized description"
+            )
+        }
+
 
         IconButton(onClick = { /*TODO*/ }, modifier = Modifier.padding(start = 100.dp)) {
             Icon(
